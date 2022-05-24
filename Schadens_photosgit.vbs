@@ -9,7 +9,7 @@ YMD = Y & M & D & "_"
 Set con = CreateObject("ADODB.Connection")
 	With con
 		.Provider = "SQLOLEDB"
-		.Properties("Data Source") = "192.168.114.15"
+		.Properties("Data Source") = ""
 		.ConnectionString = "user id = ; password="
 		.Open
 		.DefaultDatabase = "WinSped"
